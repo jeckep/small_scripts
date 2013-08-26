@@ -1,6 +1,5 @@
 var start = Date.now();
 
-
 var matrix = [];
 
 function isRangeEmpty(row,colFirst, length){
@@ -46,7 +45,6 @@ $("#foo > tbody > tr").each(function(rowIndex) {
   });
   
 }); 
-// console.log(matrix[3]); 
 
 function getColumnIndex(tr, html_td){
   for(var i = 0; i < matrix[tr].length; i++){
